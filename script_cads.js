@@ -162,7 +162,21 @@ const jogadores = {
       historia: "Ronaldinho Gaúcho, ídolo mundial, brilhou no Atlético-MG com habilidade, gols e títulos importantes.",
       imagem: "https://conteudo.imguol.com.br/c/esporte/d1/2018/02/23/ronaldinho-gaucho-no-atletico-mg-1519398291316_v2_4x3.jpg"
     }
-  }
+  },
+  santos: {
+    pele: {
+      historia: "Pelé, o 'Rei do Futebol', é ídolo mundial e símbolo do Santos, com inúmeros gols e títulos.",
+      imagem: "https://pbs.twimg.com/media/FktfCfrWYAAs2M7.jpg:large"
+    },
+    neymar: {
+      historia: "Neymar começou no Santos, encantou o mundo com dribles, gols e conquistou a Libertadores em 2011.",
+      imagem: "https://lncimg.lance.com.br/uploads/2025/01/Neymar-Santos-2-scaled-aspect-ratio-512-320.jpg"
+    },
+    robinho: {
+      historia: "Robinho, atacante habilidoso, brilhou no Santos antes de seguir carreira internacional.",
+      imagem: "https://s2.glbimg.com/56QGe8RXpxuV6q4F9OSa7UOd2Sg=/328x0:1294x959/400x397/s.glbimg.com/es/ge/f/original/2015/04/29/16682564274_3e05a0007a_o.jpg"
+    }
+  },
 };
 
 
