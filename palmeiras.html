@@ -5,7 +5,7 @@
   <title>Palmeiras</title>
   <link rel="stylesheet" href="style_t.css">
 </head>
-<body>
+<body class="theme-palmeiras"></body>
   <header><h1>Palmeiras</h1></header>
   <main class="main-container">
     <div class="image-container">
@@ -23,12 +23,13 @@
       <h2>História</h2>
       <p>O Palmeiras foi fundado em 1914 como Palestra Itália, e em 1942 passou a adotar o nome atual. É conhecido como “O Maior Campeão do Brasil”, pela quantidade de títulos nacionais conquistados.</p> 
 
-      <h2>Craques</h2>
+      <h2>Craques do Palmeiras</h2>
       <ul>
-        <li>Marcos</li>
-        <li>Dudu</li>
-        <li>Ademir da Guia</li>
+        <li class="jogador" data-id="marcos">Marcos</li>
+        <li class="jogador" data-id="dudu">Dudu</li>
+        <li class="jogador" data-id="ademirDaGuia">Ademir da Guia</li>
       </ul>
+      <div id="card-jogador" class="card-jogador"></div>
 
       <h2>Prêmios</h2>
       <ul>
@@ -41,6 +42,7 @@
       <h2>Valor Aproximado</h2>
       <p>R$ 3 bilhões</p>
     </div>
+    <script src="script_cads.js"></script>
   </main>
 </body>
 </html>

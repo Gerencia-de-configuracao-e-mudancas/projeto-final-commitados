@@ -5,7 +5,7 @@
   <title>Vasco da Gama</title>
   <link rel="stylesheet" href="style_t.css">
 </head>
-<body>
+<body class="theme-vasco">
   <header><h1>Vasco da Gama</h1></header>
   <main class="main-container">
     <div class="image-container">
@@ -19,13 +19,13 @@
       <p><strong>Localização:</strong> Rio de Janeiro, RJ</p>
       <p><strong>Estádio:</strong> São Januário</p>
       <p><strong>Torcida:</strong> Mais de 20 milhões de torcedores</p>
-
-      <h2>Craques</h2>
+      <h2>Craques do Vasco</h2>
       <ul>
-        <li>Edmundo</li>
-        <li>Romário</li>
-        <li>Juninho Pernambucano</li>
+        <li class="jogador" data-id="edmundo">Edmundo</li>
+        <li class="jogador" data-id="romario">Romário</li>
+        <li class="jogador" data-id="juninhoPernambucano">Juninho Pernambucano</li>
       </ul>
+      <div id="card-jogador" class="card-jogador"></div>
 
       <h2>Prêmios</h2>
       <ul>
@@ -37,6 +37,7 @@
       <h2>Valor Aproximado</h2>
       <p>R$ 1,1 bilhão</p>
     </div>
+    <script src="script_cads.js"></script>
   </main>
 </body>
 </html>

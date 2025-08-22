@@ -5,7 +5,7 @@
   <title>Atlético Mineiro</title>
   <link rel="stylesheet" href="style_t.css">
 </head>
-<body>
+<body class="theme-atleticoMG">
   <header><h1>Atlético Mineiro</h1></header>
   <main class="main-container">
     <div class="image-container">
@@ -19,13 +19,13 @@
       <p><strong>Localização:</strong> Belo Horizonte, MG</p>
       <p><strong>Estádio:</strong> Arena MRV</p>
       <p><strong>Torcida:</strong> Mais de 10 milhões de torcedores</p>
-
-      <h2>Craques</h2>
+      <h2>Craques do Atlético-MG</h2>
       <ul>
-        <li>Reinaldo</li>
-        <li>Ronaldinho Gaúcho</li>
-        <li>Hulk</li>
+        <li class="jogador" data-id="hulk">Hulk</li>
+        <li class="jogador" data-id="reinaldo">Reinaldo</li>
+        <li class="jogador" data-id="ronaldinhoGaucho">Ronaldinho Gaúcho</li>
       </ul>
+      <div id="card-jogador" class="card-jogador"></div>
 
       <h2>Prêmios</h2>
       <ul>
@@ -37,6 +37,7 @@
       <h2>Valor Aproximado</h2>
       <p>R$ 1,4 bilhão</p>
     </div>
+    <Script src="script_cads.js"></Script>
   </main>
 </body>
 </html>

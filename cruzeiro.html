@@ -5,7 +5,7 @@
   <title>Cruzeiro</title>
   <link rel="stylesheet" href="style_t.css">
 </head>
-<body>
+<body class="theme-cruzeiro">
   <header><h1>Cruzeiro</h1></header>
   <main class="main-container">
     <div class="image-container">
@@ -20,12 +20,14 @@
       <p><strong>Estádio:</strong> Mineirão</p>
       <p><strong>Torcida:</strong> Mais de 9 milhões de torcedores</p>
 
-      <h2>Craques</h2>
+      
+      <h2>Craques do Cruzeiro</h2>
       <ul>
-        <li>Tostão</li>
-        <li>Dirceu Lopes</li>
-        <li>Alex</li>
+        <li class="jogador" data-id="tostao">Tostão</li>
+        <li class="jogador" data-id="dirceuLopes">Dirceu Lopes</li>
+        <li class="jogador" data-id="alex">Alex</li>
       </ul>
+      <div id="card-jogador" class="card-jogador"></div>
 
       <h2>Prêmios</h2>
       <ul>
@@ -37,6 +39,7 @@
       <h2>Valor Aproximado</h2>
       <p>R$ 1,1 bilhão</p>
     </div>
+    <script src="script_cads.js"></script>
   </main>
 </body>
 </html>

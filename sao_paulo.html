@@ -5,7 +5,8 @@
   <title>São Paulo FC</title>
   <link rel="stylesheet" href="style_t.css">
 </head>
-<body>
+
+<body class="theme-saoPaulo">
   <header><h1>São Paulo FC</h1></header>
   <main class="main-container">
     <div class="image-container">
@@ -23,12 +24,13 @@
       <h2>História</h2>
       <p>O São Paulo FC foi fundado em 1930 e se consolidou como um dos clubes mais vencedores do Brasil e da América do Sul, sendo reconhecido mundialmente por suas conquistas.</p> 
 
-      <h2>Craques</h2>
-      <ul>
-        <li>Rogério Ceni</li>
-        <li>Raí</li>
-        <li>Kaká</li>
-      </ul>
+        <h2>Craques do São Paulo</h2>
+        <ul>
+          <li class="jogador" data-id="rogerioCeni">Rogério Ceni</li>
+          <li class="jogador" data-id="rai">Raí</li>
+          <li class="jogador" data-id="kaka">Kaká</li>
+        </ul>
+        <div id="card-jogador" class="card-jogador"></div>
 
       <h2>Prêmios</h2>
       <ul>
@@ -41,6 +43,7 @@
       <h2>Valor Aproximado</h2>
       <p>R$ 2,2 bilhões</p>
     </div>
+    <script src="script_cads.js"></script>
   </main>
 </body>
 </html>
