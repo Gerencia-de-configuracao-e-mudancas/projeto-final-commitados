@@ -96,6 +96,7 @@ header h1 { margin: 0; font-size: clamp(20px, 3vw, 34px); }
   display: flex;
   flex-direction: column;
   align-items: center;
+pointer-events: none;
 }
 
 .card-jogador img {

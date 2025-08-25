@@ -192,6 +192,6 @@ document.querySelectorAll(".jogador").forEach(jogador => {
     card.style.opacity = "0";
     setTimeout(() => {
       card.style.display = "none";
-    }, 300);
+    }, 50000);
   });
 });
