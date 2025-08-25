@@ -1,5 +1,5 @@
 body {
-  background-image: url('img/fundo.jpg');
+  background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/27829023-fechar-acima-do-muitos-futebol-jogadoras-chutando-uma-futebol-em-uma-campo-competicao-cena-criada-com-generativo-ai-tecnologia-gratis-foto.jpg');
   background-size: cover;       
   background-position: center;  
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #454e36;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -41,14 +41,14 @@ header {
 .card {
   background-color: white;
   border: 1px solid #ddd;
-   color: #c54800;
+   color: #c5c200;
   padding: 1rem;
   width: 200px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   cursor: pointer;
   transition: transform 0.2s;
-  background-image: url('img/card.jfif');
+  background-image: url('https://img.freepik.com/fotos-gratis/jogadores-de-futebol-em-acao-em-estadios-profissionais_654080-1746.jpg?semt=ais_hybrid&w=740&q=80');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
