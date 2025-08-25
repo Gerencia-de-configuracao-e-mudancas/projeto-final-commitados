@@ -17,7 +17,7 @@ const jogadores = {
   palmeiras: {
     marcos: {
       historia: "Marcos, goleiro lendário, é ídolo do Palmeiras por sua segurança e títulos conquistados.",
-      imagem: "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/Dudu-participou-da-ultima-vitoria-do-Palmeiras-sobre-o-Galo.png?w=1200&h=675&crop=1"
+      imagem: "https://www.motiveacaopalestras.com.br/assets/images/palestrantes/073de6c9f7a2ed036747e202c539f495.jpg"
     },
     dudu: {
       historia: "Dudu é atacante habilidoso e decisivo, destaque recente do Palmeiras.",
