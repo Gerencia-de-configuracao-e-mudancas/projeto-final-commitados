@@ -195,3 +195,6 @@ document.querySelectorAll(".jogador").forEach(jogador => {
     }, 50000);
   });
 });
+
+card.style.display = "none";
+card.style.opacity = "0";
